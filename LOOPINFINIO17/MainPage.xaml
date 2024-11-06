@@ -76,8 +76,12 @@
                             
         </HorizontalStackLayout>
         
-    
-    
+        <Image  x:Name="player"
+                Source="player01.png"
+                Aspect="AspectFill"
+                HeightRequest="200"
+                WidthRequest="200"/>
+
     
     
     

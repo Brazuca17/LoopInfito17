@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eX3dxsTp1ko=",
+  "dgSpecHash": "2UmQp5MJs3A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+  "projectFilePath": "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

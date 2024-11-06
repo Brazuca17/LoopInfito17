@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj": {}
+    "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj": {
+    "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+        "projectUniqueName": "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
         "projectName": "LOOPINFINIO17",
-        "projectPath": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+        "projectPath": "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\obj\\",
+        "outputPath": "c:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
