@@ -1,12 +1,16 @@
-﻿namespace LOOPINFINIO17;
+﻿using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
+
+namespace LOOPINFINIO17;
 
 public partial class MainPage : ContentPage
 {
-
+	Player player;
 
 	public MainPage()
 	{
 		InitializeComponent();
+		player = new Player(Imgplayer);
+		player.Run();
 	}
 
 	bool estamorto = false;
@@ -90,6 +94,7 @@ public partial class MainPage : ContentPage
 		while(!estamorto)
 		{
 			GerenciaCenario();
+			player.Desenha();
 			await Task.Delay(temporEntreFrames);
 		}
 	}

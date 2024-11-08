@@ -1,3 +1,5 @@
+using FFImageLoading.Maui;
+
 namespace LOOPINFINIO17;
 
 public class Animacao
@@ -9,9 +11,9 @@ public class Animacao
 		protected int animacaoAtiva = 1;
 		bool parado = true;
 		int frameAtual = 1;
-		protected Image compImagem;	
+		protected CachedImageView compImagem;	
 
-		public Animacao (Image a)
+		public Animacao (CachedImageView a)
 		{
 			compImagem = a;
 		}

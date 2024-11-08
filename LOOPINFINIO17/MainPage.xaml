@@ -2,9 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LOOPINFINIO17.MainPage"
+             xmlns:ff="clr-namespace:FFImageLoading.Maui;assembly=FFImageLoading.Maui"
              Shell.NavBarIsVisible="False">
 
         <Grid>
+
+            
         
 
         <HorizontalStackLayout x:Name="HSLayer1">
@@ -67,25 +70,19 @@
                     HeightRequest="125"/>
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout  x:Name="persona">
 
-                    <Image  Source="player01"
-                            Aspect="AspectFill"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"/>
-                            
-        </HorizontalStackLayout>
-        
-        <Image  x:Name="player"
+            <ff:CachedImageView 
+                CacheType ="Memory"
+                CacheDuration="365"
+                x:Name="Imgplayer"
                 Source="player01.png"
-                Aspect="AspectFill"
-                HeightRequest="200"
-                WidthRequest="200"/>
+                VerticalOptions="End"
+                HorizontalOptions="Start"
+                Margin="50,0,0,110"
+                HeightRequest="150"
+                WidthRequest="150"/>
 
-    
-    
-    
-    
+        
     </Grid>
 
 </ContentPage>
