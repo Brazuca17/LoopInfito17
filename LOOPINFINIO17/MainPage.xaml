@@ -72,7 +72,7 @@
 
 
             <ff:CachedImageView 
-                CacheType ="Memory"
+                CacheType ="All"
                 CacheDuration="365"
                 x:Name="Imgplayer"
                 Source="player01.png"
@@ -80,7 +80,8 @@
                 HorizontalOptions="Start"
                 Margin="50,0,0,110"
                 HeightRequest="150"
-                WidthRequest="150"/>
+                WidthRequest="150"
+                Aspect="Fill"/>
 
         
     </Grid>
