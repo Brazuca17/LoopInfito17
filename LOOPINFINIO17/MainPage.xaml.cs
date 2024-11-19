@@ -23,7 +23,56 @@ public partial class MainPage : ContentPage
 		int velocidade = 0;
 		int larguraJanela = 0;
 		int alturaJanela = 0;
+		const int forcaGravidade = 6;
+		bool estaNoChao = true;
+		bool estaNoAr = false;
+		int tempoPulando = 0;
+		int tempoNoAr = 0;
+		const int forcaPulo = 8;
+		const int maxTempoPulando = 6;
+		const int maxTempoAr = 4;
 
+	void AplicaPulo()
+	{
+		estaNoChao = false;
+		if (estaPulando && tempoPulando >= maxTempoPulando)
+		{
+			estaPulando = false;
+			estaNoAr = true;
+			tempoNoAr = 0;
+		}
+		else if (estaNoAr && tempoNoAr >= maxTempoAr)
+		{
+			estaPulando = false;
+			estaNoAr = false;
+			tempoPulando = 0;
+			tempoNoAr = 0;
+		}	
+		else if (estaPulando && tempoPulando < maxTempoPulando)
+		{
+			player.MoveY(-forcaPulo);
+			tempoPulando++;
+		}
+		else if (estaNoAr)
+		 tempoNoAr++;
+	}
+
+
+
+	void AplicaGravidade()
+	{
+		if(player.GetY()<0)
+			player.MoveY(forcaGravidade);
+			else if(player.GetY() >= 0)
+			{
+				player.SetY(0);
+				estaNoChao = true;
+				}
+	}
+
+
+
+	
 
 	protected override void OnSizeAllocated(double  w, double h)
 	{
@@ -94,16 +143,27 @@ public partial class MainPage : ContentPage
 		while(!estamorto)
 		{
 			GerenciaCenario();
-			player.Desenha();
-			await Task.Delay(temporEntreFrames);
+			if(!estaPulando && !estaNoAr)
+			{
+				AplicaGravidade();
+				player.Desenha();
+			}
+		 else 
+		 AplicaPulo();
+		 await Task.Delay(temporEntreFrames);
 		}
 	}
-
 	protected override void OnAppearing()
 	{
 		base.OnAppearing();
 		Desenha();
 	}
 
-	
+	void Pulo(object o, TappedEventArgs a)
+	{
+		if(estaNoChao)
+		{
+			estaPulando	= true;
+		}
+	}
 }

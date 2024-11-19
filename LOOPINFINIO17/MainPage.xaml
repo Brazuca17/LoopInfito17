@@ -6,9 +6,9 @@
              Shell.NavBarIsVisible="False">
 
         <Grid>
-
-            
-        
+        <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Pulo"/>
+        </Grid.GestureRecognizers>
 
         <HorizontalStackLayout x:Name="HSLayer1">
             

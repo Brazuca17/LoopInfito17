@@ -38367,11 +38367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\LoopInfito17-1\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
       "projectName": "LOOPINFINIO17",
-      "projectPath": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+      "projectPath": "C:\\Users\\Aluno\\LoopInfito17-1\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\LoopInfito17\\LOOPINFINIO17\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\LoopInfito17-1\\LOOPINFINIO17\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

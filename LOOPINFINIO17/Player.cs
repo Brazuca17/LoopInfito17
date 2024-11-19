@@ -1,4 +1,5 @@
 using FFImageLoading.Maui;
+using Microsoft.Maui.Platform;
 
 namespace LOOPINFINIO17;
 
@@ -28,10 +29,20 @@ public class Player:Animacao
         SetAnimacaoAtiva(1);
         Play();
     }
+    
+    public void MoveY(int s)
+    {
+        imageView.TranslationY +=s;
+    }
 
-
-
-
-
+    public double GetY()
+    {
+        return imageView.TranslationY;
+    }
+    
+    public void SetY(double a)
+    {
+        imageView.TranslationY = a;
+    }
 
 }
