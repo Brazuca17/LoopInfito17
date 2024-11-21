@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eWdpogOCk4w=",
+  "dgSpecHash": "2ecHxRNVMiQ=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Aluno\\LoopInfito17-1\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\LoopInfito17-1\\LOOPINFINIO17\\LOOPINFINIO17.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\excss\\4.2.3\\excss.4.2.3.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\ffimageloading.maui\\1.2.7\\ffimageloading.maui.1.2.7.nupkg.sha512",

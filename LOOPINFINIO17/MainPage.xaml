@@ -83,6 +83,38 @@
                 WidthRequest="150"
                 Aspect="Fill"/>
 
+        <Image  Source="neycaido.png"
+                x:Name="imginimigo1"
+                Margin="0,0,0,110"
+                Aspect="Fill"
+                HorizontalOptions="Fill"
+                VerticalOptions="End"
+                HeightRequest="125"/>
+
+        <Image  Source="fantasma.png"
+                x:Name="imginimigo2"
+                Margin="0,0,0,110"
+                Aspect="Fill"
+                HorizontalOptions="Fill"
+                VerticalOptions="End"
+                HeightRequest="125"/>
+        
+        <Image  Source="boletosemfundo.png"
+                x:Name="imginimigo3"
+                Margin="0,0,0,110"
+                Aspect="Fill"
+                HorizontalOptions="Fill"
+                VerticalOptions="End"
+                HeightRequest="125"/>
+        
+        <Image  Source="carteiradetrabalho.png"
+                x:Name="imginimigo4"
+                Margin="0,0,0,110"
+                Aspect="Fill"
+                HorizontalOptions="Fill"
+                VerticalOptions="End"
+                HeightRequest="125"/>
+
         
     </Grid>
 

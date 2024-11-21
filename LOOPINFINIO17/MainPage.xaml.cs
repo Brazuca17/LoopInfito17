@@ -5,6 +5,7 @@ namespace LOOPINFINIO17;
 public partial class MainPage : ContentPage
 {
 	Player player;
+	Inimigos inimigos;
 
 	public MainPage()
 	{
@@ -79,6 +80,11 @@ public partial class MainPage : ContentPage
 		base.OnSizeAllocated(w, h);
 		CorrigeTamanhoCenario(w, h);
 		CalculaVelocidade(w);
+		inimigos = new Inimigos(-w);
+		inimigos.Add(new Inimigo(imginimigo1));
+		inimigos.Add(new Inimigo(imginimigo2));
+		inimigos.Add(new Inimigo(imginimigo3));
+		inimigos.Add(new Inimigo(imginimigo4));
 	}
 
 	void CalculaVelocidade(double w)
@@ -143,6 +149,10 @@ public partial class MainPage : ContentPage
 		while(!estamorto)
 		{
 			GerenciaCenario();
+
+			if(inimigos!= null)
+				inimigos.Desenha(velocidade);
+
 			if(!estaPulando && !estaNoAr)
 			{
 				AplicaGravidade();

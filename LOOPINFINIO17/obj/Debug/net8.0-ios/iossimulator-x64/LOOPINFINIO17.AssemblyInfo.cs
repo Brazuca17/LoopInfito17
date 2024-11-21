@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LOOPINFINIO17")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+46778eb01a414866d05c959b83f744ed375b6280")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3a469bd7855be4d2f1681e3419adaf80afe12584")]
 [assembly: System.Reflection.AssemblyProductAttribute("LOOPINFINIO17")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LOOPINFINIO17")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
